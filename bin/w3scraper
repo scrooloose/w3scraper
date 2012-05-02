@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+#
+require 'w3scraper'
+
+app = W3scraper.new(ARGV, STDIN)
+app.run
